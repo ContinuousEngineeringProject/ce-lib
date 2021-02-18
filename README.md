@@ -1,22 +1,14 @@
-# :project
+# Continuous Engineering Library
+The Continuous Engineering Project is an open framework that enables continuous engineering best practices through plug & play toolsets.
 
-<!-- TODO: Replace all placeholders in the project
-:project
-:repo
-:binary
-:BINARY
-:GoVersion
--->
+The Continuous Engineering Library is a library for the Continuous Engineering Factory.
 
-<!-- TODO: Update project description -->
-The :project is an open-source package created as part of the Continuous Engineering Project. The Continuous Engineering Platform is an open framework that enables continuous engineering best practices through plug & play toolsets.
-
-[![License](https://img.shields.io/github/license/ContinuousEngineeringProject/:repo)](https://github.com/ContinuousEngineeringProject/:repo/blob/master/LICENSE)
+[![License](https://img.shields.io/github/license/ContinuousEngineeringProject/ce-lib)](https://github.com/ContinuousEngineeringProject/ce-lib/blob/master/LICENSE)
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg)](https://conventionalcommits.org)
-[![DepShield Badge](https://depshield.sonatype.org/badges/ContinuousEngineeringProject/:repo/depshield.svg)](https://depshield.github.io)
-[![GoReport](https://goreportcard.com/badge/github.com/ContinuousEngineeringProject/:repo)](https://goreportcard.com/report/github.com/ContinuousEngineeringProject/:repo)
-[![GoDoc](https://godoc.org/github.com/ContinuousEngineeringProject/:repo?status.svg)](https://godoc.org/github.com/ContinuousEngineeringProject/:repo)
-[![GitHub release](https://img.shields.io/github/v/release/ContinuousEngineeringProject/:repo?include_prereleases)](https://github.com/ContinuousEngineeringProject/:repo/releases/latest)
+[![DepShield Badge](https://depshield.sonatype.org/badges/ContinuousEngineeringProject/ce-lib/depshield.svg)](https://depshield.github.io)
+[![GoReport](https://goreportcard.com/badge/github.com/ContinuousEngineeringProject/ce-lib)](https://goreportcard.com/report/github.com/ContinuousEngineeringProject/ce-lib)
+[![GoDoc](https://godoc.org/github.com/ContinuousEngineeringProject/ce-lib?status.svg)](https://godoc.org/github.com/ContinuousEngineeringProject/ce-lib)
+[![GitHub release](https://img.shields.io/github/v/release/ContinuousEngineeringProject/ce-lib?include_prereleases)](https://github.com/ContinuousEngineeringProject/ce-lib/releases/latest)
 [![Slack Status](https://img.shields.io/badge/slack-join_chat-white.svg?logo=slack&style=social)](https://continuousengproject.slack.com)
 
 
@@ -26,44 +18,44 @@ Pick the most suitable instructions for your operating system:
 
 ### macOS
 
-1. Download the `:binary` binary archive using `curl` and pipe (`|`) the compressed archive to
+1. Download the `ce-lib` binary archive using `curl` and pipe (`|`) the compressed archive to
    the `tar` command:
    
    ```sh
-   curl -L https://github.com/continuousengineeringproject/:repo/releases/latest/download/:repo-darwin-amd64.tar.gz | tar xzv 
+   curl -L https://github.com/continuousengineeringproject/ce-lib/releases/latest/download/ce-lib-darwin-amd64.tar.gz | tar xzv 
     ```
 
-1. Install the `:binary` binary by moving it to a location in your executable path using the `mv` command:
+1. Install the `ce-lib` binary by moving it to a location in your executable path using the `mv` command:
 
    ```sh
-   sudo mv :binary /usr/local/bin
+   sudo mv ce-lib /usr/local/bin
     ```
 
-1. Run `:binary version --short` to make sure you're on the latest stable version
+1. Run `ce-lib version --short` to make sure you're on the latest stable version
 
    ```sh
-   :binary version --short
+   ce-lib version --short
    ```
 
 ### Linux
 
-1. Download the `:binary` binary archive using `curl` and pipe (`|`) the compressed archive to
+1. Download the `ce-lib` binary archive using `curl` and pipe (`|`) the compressed archive to
    the `tar` command:
 
    ```sh
-   curl -L https://github.com/continuousengineeringproject/:repo/releases/latest/download/:repo-linux-amd64.tar.gz | tar xzv 
+   curl -L https://github.com/continuousengineeringproject/ce-lib/releases/latest/download/ce-lib-linux-amd64.tar.gz | tar xzv 
     ```
 
-1. Install the `:binary` binary by moving it to a location in your executable path using the `mv` command:
+1. Install the `ce-lib` binary by moving it to a location in your executable path using the `mv` command:
 
    ```sh
-   sudo mv :binary /usr/local/bin
+   sudo mv ce-lib /usr/local/bin
     ```
 
-1. Run `:binary version --short` to make sure you're on the latest stable version
+1. Run `ce-lib version --short` to make sure you're on the latest stable version
 
    ```sh
-   :binary version --short
+   ce-lib version --short
    ```
    
 <!-- TODO: Add project usage
@@ -104,4 +96,4 @@ Licensed under the MIT license - see the [LICENSE][LICENSE] file for details.
 [SEMVER]: http://semver.org/
 [COC]: CODE_OF_CONDUCT.md
 [CONTRIB]: CONTRIBUTING.md
-[REPOTAGS]: https://github.com/continuousengineeringproject/:repo/tags
+[REPOTAGS]: https://github.com/continuousengineeringproject/ce-lib/tags

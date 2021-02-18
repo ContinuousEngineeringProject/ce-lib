@@ -13,7 +13,7 @@ Useful information will help to configure Git for contributing to this project.
 ## Install Git on your system
 Git is a [version control system](https://en.wikipedia.org/wiki/Version_control) to track the changes of source code.
 
-You will need to have Git installed on your computer to contribute to :project development. Teaching Git is outside the scope of our docs, but if you're looking for an excellent reference to learn the basics of Git, we recommend the [Git book](https://git-scm.com/book/) if you are not sure where to begin.
+You will need to have Git installed on your computer to contribute to Continuous Engineering Library development. Teaching Git is outside the scope of our docs, but if you're looking for an excellent reference to learn the basics of Git, we recommend the [Git book](https://git-scm.com/book/) if you are not sure where to begin.
 
 Move back to the terminal and check if Git is already installed. Type in `git version` and press enter. You can skip the rest of this section if the command returned a version number. Otherwise [download](https://git-scm.com/downloads) the latest version and follow this [installation guide](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
 
@@ -35,25 +35,25 @@ If you're not familiar with this term, GitHub's [help pages](https://help.github
 
 > A fork is a copy of a repository. Forking a repository allows you to freely experiment with changes without affecting the original project.
 
-Open the [:project repository](https://github.com/continuousengineeringproject/:repo) on GitHub and click on the "Fork" button in the top right.
+Open the [Continuous Engineering Library repository](https://github.com/continuousengineeringproject/ce-lib) on GitHub and click on the "Fork" button in the top right.
 
 ### Clone your fork locally
 Now open your fork repository on GitHub and copy the remote url of your fork. You can choose between HTTPS and SSH as protocol that Git should use for the following operations. HTTPS works always [if you're not sure](https://help.github.com/articles/which-remote-url-should-i-use/).
 
-Then go back to your terminal and clone your fork locally. Since :project is a Go package, it should be located at `$GOPATH/src/github.com/continuousengineeringproject/:repo`.
+Then go back to your terminal and clone your fork locally. Since Continuous Engineering Library is a Go package, it should be located at `$GOPATH/src/github.com/continuousengineeringproject/ce-lib`.
 
 ```sh
 mkdir -p $GOPATH/src/github.com/continuousengineeringproject
-cd $GOPATH/src/github.com/continuousengineeringproject/:repo
-git clone git@github.com:<YOUR_USERNAME>/:repo.git
-cd :repo
+cd $GOPATH/src/github.com/continuousengineeringproject/ce-lib
+git clone git@github.com:<YOUR_USERNAME>/ce-lib.git
+cd ce-lib
 ```
 
-Add the conventional upstream `git` remote in order to fetch changes from :repo's main master
+Add the conventional upstream `git` remote in order to fetch changes from ce-lib's main master
 branch and to create pull requests:
 
 ```sh
-git remote add upstream https://github.com/continuousengineeringproject/:repo.git
+git remote add upstream https://github.com/continuousengineeringproject/ce-lib.git
 ```
 
 Let's check if everything went right by listing all known remotes:
@@ -65,10 +65,10 @@ git remote -v
 The output should look similar to:
 
 ```sh
-origin    git@github.com:<YOUR_USERNAME>/:repo.git (fetch)
-origin    git@github.com:<YOUR_USERNAME>/:repo.git (push)
-upstream  https://github.com/continuousengineeringproject/:repo.git (fetch)
-upstream  https://github.com/continuousengineeringproject/:repo.git (push)
+origin    git@github.com:<YOUR_USERNAME>/ce-lib.git (fetch)
+origin    git@github.com:<YOUR_USERNAME>/ce-lib.git (push)
+upstream  https://github.com/continuousengineeringproject/ce-lib.git (fetch)
+upstream  https://github.com/continuousengineeringproject/ce-lib.git (push)
 ```
 
 ## Pre commit hooks

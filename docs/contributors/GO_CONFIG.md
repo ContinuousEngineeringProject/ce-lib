@@ -10,7 +10,7 @@ Useful information will help to configure Go for contributing to this project.
 
 
 ## Install Go
-We recommend `:GoVersion` version of go as the pull request checks run against this version.
+We recommend `1.15.6` version of go as the pull request checks run against this version.
 
 If you are having trouble following the installation guides for go, check out [Go Bootcamp](http://www.golangbootcamp.com/book/get_setup) which contains setups for every platform or reach out to the Continuous Engineering Project community in the [Continuous Engineering Project Slack channels](https://continuousengproject.slack.com).
 
@@ -24,7 +24,7 @@ brew install go
 ### Install Go via GVM
 More experienced users can use the [Go Version Manager](https://github.com/moovweb/gvm) (GVM). GVM allows you to switch between different Go versions *on the same machine*. If you're a beginner, you probably don't need this feature. However, GVM makes it easy to upgrade to a new released Go version with just a few commands.
 
-GVM comes in especially handy if you follow the development of :project over a longer period of time. Future versions of :project will usually be compiled with the latest version of Go. Sooner or later, you will have to upgrade if you want to keep up.
+GVM comes in especially handy if you follow the development of Continuous Engineering Library over a longer period of time. Future versions of Continuous Engineering Library will usually be compiled with the latest version of Go. Sooner or later, you will have to upgrade if you want to keep up.
 
 ### Install Go on Windows
 Simply install the latest version by downloading the [installer](https://golang.org/dl/).
@@ -48,7 +48,7 @@ go version
 You should see something similar to the following written to the console (on macOS). Note that the version here reflects the most recent version of Go as of the last update for this page:
 
 ```sh
-go version go:GoVersion darwin/amd64
+go version go1.15.6 darwin/amd64
 ```
 
 Next, make sure that you set up your `GOPATH` [as described in the installation guide](https://github.com/golang/go/wiki/SettingGOPATH).
