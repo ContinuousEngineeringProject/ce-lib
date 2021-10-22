@@ -10,7 +10,7 @@ Useful information will help to configure Go for contributing to this project.
 
 
 ## Install Go
-We recommend `1.15.6` version of go as the pull request checks run against this version.
+We recommend `1.17.1` version of go as the pull request checks run against this version.
 
 If you are having trouble following the installation guides for go, check out [Go Bootcamp](http://www.golangbootcamp.com/book/get_setup) which contains setups for every platform or reach out to the Continuous Engineering Project community in the [Continuous Engineering Project Slack channels](https://continuousengproject.slack.com).
 
@@ -48,7 +48,7 @@ go version
 You should see something similar to the following written to the console (on macOS). Note that the version here reflects the most recent version of Go as of the last update for this page:
 
 ```sh
-go version go1.15.6 darwin/amd64
+go version go1.17.1 darwin/amd64
 ```
 
 Next, make sure that you set up your `GOPATH` [as described in the installation guide](https://github.com/golang/go/wiki/SettingGOPATH).

@@ -21,7 +21,7 @@ Want to hack on the Continuous Engineering Library? Awesome! This page contains 
 To compile, test and contribute towards the project binaries you will need:
 
  - [Git](https://git-scm.com/) and a [GitHub](https://github.com/) account. Details on [configuring Git](docs/contributors/GIT_CONFIG.md/#Git-Configuration) for the project.
- - [Go](https://golang.org/) 1.15.6 with support for compiling to `linux/amd64`. Details on [configuring Go](docs/contributors/GO_CONFIG.md/#Go-Configuration) for the project.
+ - [Go](https://golang.org/) 1.17.1 with support for compiling to `linux/amd64`. Details on [configuring Go](docs/contributors/GO_CONFIG.md/#Go-Configuration) for the project.
 
 
 In most cases, install the prerequisite according to its instructions. See the next section for a note about [Go cross-compiling](#Cross platform development) support.
