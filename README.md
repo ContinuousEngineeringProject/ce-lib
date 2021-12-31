@@ -1,78 +1,48 @@
 # Continuous Engineering Library
-The Continuous Engineering Project is an open framework that enables continuous engineering best practices through plug & play toolsets.
-
-The Continuous Engineering Library is a library for the Continuous Engineering Factory.
 
 [![License](https://img.shields.io/github/license/ContinuousEngineeringProject/ce-lib)](https://github.com/ContinuousEngineeringProject/ce-lib/blob/master/LICENSE)
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg)](https://conventionalcommits.org)
 [![DepShield Badge](https://depshield.sonatype.org/badges/ContinuousEngineeringProject/ce-lib/depshield.svg)](https://depshield.github.io)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=ContinuousEngineeringProject_ce-lib&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=ContinuousEngineeringProject_ce-lib)
 [![GoReport](https://goreportcard.com/badge/github.com/ContinuousEngineeringProject/ce-lib)](https://goreportcard.com/report/github.com/ContinuousEngineeringProject/ce-lib)
 [![GoDoc](https://godoc.org/github.com/ContinuousEngineeringProject/ce-lib?status.svg)](https://godoc.org/github.com/ContinuousEngineeringProject/ce-lib)
 [![GitHub release](https://img.shields.io/github/v/release/ContinuousEngineeringProject/ce-lib?include_prereleases)](https://github.com/ContinuousEngineeringProject/ce-lib/releases/latest)
 [![Slack Status](https://img.shields.io/badge/slack-join_chat-white.svg?logo=slack&style=social)](https://continuousengproject.slack.com)
 
+The Continuous Engineering Project is an open source framework that enables continuous engineering best practices through plug & play toolsets.
+
+The Continuous Engineering Library, ce-lib, is a library used by the Continuous Engineering Factory.
 
 ## Installation
 
-Pick the most suitable instructions for your operating system:
+go-github is compatible with modern Go releases in module mode, with Go installed:
 
-### macOS
+```bash
+go get github.com/ContinuousEngineeringProject/ce-lib
+```
 
-1. Download the `ce-lib` binary archive using `curl` and pipe (`|`) the compressed archive to
-   the `tar` command:
-   
-   ```sh
-   curl -L https://github.com/continuousengineeringproject/ce-lib/releases/latest/download/ce-lib-darwin-amd64.tar.gz | tar xzv 
-    ```
+will resolve and add the package to the current development module, along with its dependencies.
 
-1. Install the `ce-lib` binary by moving it to a location in your executable path using the `mv` command:
-
-   ```sh
-   sudo mv ce-lib /usr/local/bin
-    ```
-
-1. Run `ce-lib version --short` to make sure you're on the latest stable version
-
-   ```sh
-   ce-lib version --short
-   ```
-
-### Linux
-
-1. Download the `ce-lib` binary archive using `curl` and pipe (`|`) the compressed archive to
-   the `tar` command:
-
-   ```sh
-   curl -L https://github.com/continuousengineeringproject/ce-lib/releases/latest/download/ce-lib-linux-amd64.tar.gz | tar xzv 
-    ```
-
-1. Install the `ce-lib` binary by moving it to a location in your executable path using the `mv` command:
-
-   ```sh
-   sudo mv ce-lib /usr/local/bin
-    ```
-
-1. Run `ce-lib version --short` to make sure you're on the latest stable version
-
-   ```sh
-   ce-lib version --short
-   ```
-   
-<!-- TODO: Add project usage
-## Usage
-
-Use examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably include in the README.
+Alternatively the same can be achieved if you use import in a package:
 
 ```go
-
+import "github.com/ContinuousEngineeringProject/ce-lib"
 ```
--->
 
-<!-- TODO: Add link to the roadmap in the project knowledge base.
-## Roadmap
+and run `go get` without parameters.
 
-If you have ideas for releases in the future, it is a good idea to list them here.
--->
+Finally, to use the top-of-trunk version of this repo, use the following command:
+
+```bash
+go get github.com/ContinuousEngineeringProject/ce-lib@master
+```
+
+
+## Usage
+
+```go
+import "github.com/ContinuousEngineeringProject/ce-lib"
+```
 
 
 ## Contributing
