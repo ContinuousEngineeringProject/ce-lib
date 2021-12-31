@@ -2,6 +2,7 @@
 
 The Continuous Engineering Library project takes security seriously. We make every possible effort to ensure users can adequately secure their automation infrastructure.
 
+<!--
 ## Supported Versions
 
 | Version | Supported          |
@@ -20,4 +21,5 @@ If you are unable to report using the above issue tracker, you can also send you
 
 ## Vulnerabilities in Apps
 
-Whilst the Continuous Engineering Project team is not responsible for the quality of third party apps, please still use the above reporting mechanism and we will co-ordinate with the app developer to ensure a fix in a secure maner.
+Whilst the Continuous Engineering Project team is not responsible for the quality of third party apps, please still use the above reporting mechanism and we will co-ordinate with the app developer to ensure a fix in a secure manner.
+-->
